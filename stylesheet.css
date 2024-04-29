@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar{
+    display: flex;
+    width: 100%;
+    gap: 56%;
+}
+.logo{
+    display: block;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.nav{
+    display: flex;
+    padding-top: 16px;
+    color: white;
+}
+.btn{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+ul:hover{
+    cursor: pointer;
+    color: white;
+}
+button{
+    border: 0;
+    width: 110px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(112, 201, 231);
+    color: white;
+}
+.container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+#creatives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    padding-top: 70px;
+    color: white;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+h2{
+    font-family: "Fraunces", serif;
+    font-weight: 600; 
+    font-size: 55px;
+}
+p{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(212, 27%, 19%);
+    padding-right: 30px;
+}
+.container-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+.box1{
+    height: 500PX;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+}
+.box2{
+    object-fit: cover;
+    height: 500PX;
+}
+.box3{
+    object-fit: cover;
+    height: 500PX;
+}
+.box4{
+    height: 500px;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+}
+.box5{
+    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+.box6{
+    background-image: url("/images/desktop/image-photography.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container-testimonials{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    height: 600px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.person1{
+    justify-content: center;
+    text-align: center;
+}
+.person2{
+    justify-content: center;
+    text-align: center;
+}
+.person3{
+    justify-content: center;
+    text-align: center;
+}
+u{
+    width: 110%;
+    height: 5px;
+    border-radius: 40px;
+}
+#learn{
+    font-weight: bold;
+}
+.under1{
+    text-decoration: underline 8px solid hsl(51, 100%, 49%);
+}
+.under1:hover{
+    cursor: pointer;
+}
+.under2{
+    text-decoration: underline 8px solid hsl(7, 99%, 70%);
+}
+.under2:hover{
+    cursor: pointer;
+}
+#learn:hover{
+    cursor: pointer;
+}
+#learn2{
+    font-weight: bold;
+}
+#learn2{
+    cursor: pointer;
+}
+#graphic{
+    padding-top: 310px;
+    font-size: 22px;
+    color: hsl(167, 40%, 24%);
+}
+#explanation3{
+    padding: 10px;
+    color: hsl(167, 40%, 24%);
+}
+#photography{
+    padding-top: 310px;
+    font-size: 22px;
+    color: hsl(198, 62%, 26%);
+}
+#explanation{
+    color: hsl(198, 62%, 26%);
+}
+#heading{
+    text-align: center;
+    font-size: 22px;
+    color: hsl(232, 10%, 55%);
+    padding-top: 80px;
+}
+#photo{
+    border-radius: 80%;
+}
+#testi1{
+    color: hsl(213, 9%, 39%);
+}
+#testi2{
+    color: hsl(213, 9%, 39%);
+}
+#testi3{
+    color: hsl(213, 9%, 39%);
+}
+#occupation1{
+    color: hsl(210, 4%, 67%);
+}
+#occupation2{
+    color: hsl(210, 4%, 67%);
+}
+#occupation3{
+    color: hsl(210, 4%, 67%);
+}
+
+.container-images{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+.image1{
+    width: 25%;
+    height: 30px;
+    object-fit: contain;
+}
+
+.footer{
+    display: block;
+    padding-top: 450px;
+    background-color: hsl(175, 49%, 67%);
+    width: 100%;
+}
+.footer1{
+    background-color: hsl(167, 40%, 24%);
+    mask: url(/images/logo.svg) no-repeat center;
+    align-items: center;
+}
+.footer2{
+    display: flex;
+    padding-top: 30px;
+    color: hsl(167, 40%, 24%);
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.footer3{
+    padding-top: 30px;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    color: hsl(167, 40%, 24%);
+}
+.icons:hover{
+    cursor: pointer;
+    color: white;
+}
+.icons{
+    fill: hsl(167, 40%, 24%);
+}
+.icons1:hover{
+    fill: white;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align:center; padding-top: 30px; padding-bottom: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
